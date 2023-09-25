@@ -1,5 +1,6 @@
 import string
 import random
+
  
  #function to print the password
 def generator(length):
@@ -12,9 +13,10 @@ print(generator(length))
 
 #function to print the passw with given characters
 def chargen(words):
+
     ln=len(words)
     passw=""
     for char in words:
         passw+=random.choice(words)
     print(passw)
-chargen("ABC")
+#chargen("your words")
